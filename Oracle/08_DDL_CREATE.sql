@@ -574,7 +574,4 @@ WHERE MEMBER_NO = 1;
     제2 정규화 : 주 식별자에 종속되지 않는 속성을 분리
     제3 정규화 : 속성에 종속적인 속성을 제거
 */
-CREATE TABLE ANIMAL(
-    ANIMAL_NO NUMBER PRIMARY KEY,
-    ANIMAL_CASE VARCHAR2(30)
-    );
+
