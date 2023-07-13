@@ -5,6 +5,7 @@ import java.util.Date;
 public class Channel {
 	private int channelCode;
 	private String channelName;
+	private String channelPhoto;
 	private String channelDesc;
 	private Date channelDate;
 	
@@ -12,9 +13,11 @@ public class Channel {
 
 	public Channel() {}
 
-	public Channel(int channelCode, String channelName, String channelDesc, Date channelDate, Member member) {
+	public Channel(int channelCode, String channelName, String channelPhoto, String channelDesc, Date channelDate,
+			Member member) {
 		this.channelCode = channelCode;
 		this.channelName = channelName;
+		this.channelPhoto = channelPhoto;
 		this.channelDesc = channelDesc;
 		this.channelDate = channelDate;
 		this.member = member;
@@ -34,6 +37,14 @@ public class Channel {
 
 	public void setChannelName(String channelName) {
 		this.channelName = channelName;
+	}
+
+	public String getChannelPhoto() {
+		return channelPhoto;
+	}
+
+	public void setChannelPhoto(String channelPhoto) {
+		this.channelPhoto = channelPhoto;
 	}
 
 	public String getChannelDesc() {
@@ -62,8 +73,8 @@ public class Channel {
 
 	@Override
 	public String toString() {
-		return "Channel [channelCode=" + channelCode + ", channelName=" + channelName + ", channelDesc=" + channelDesc
-				+ ", channelDate=" + channelDate + ", member=" + member + "]";
+		return "Channel [channelCode=" + channelCode + ", channelName=" + channelName + ", channelPhoto=" + channelPhoto
+				+ ", channelDesc=" + channelDesc + ", channelDate=" + channelDate + ", member=" + member + "]";
 	}
 
 }

@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import com.youtube.model.vo.Channel;
 import com.youtube.model.vo.Member;
 import com.youtube.model.vo.Subscribe;
 
@@ -23,8 +24,8 @@ public interface MemberDAOTemplate {
 	// Subscribe
 	// 구독 추가, 구독 취소, 내가 구독한 채널 목록 보기
 	int addSubscribe(Subscribe subscribe) throws SQLException;
-	int deleteSubscribe(int subsCode) throws SQLException;
-	ArrayList<Subscribe> mySubscribeList(String memberId) throws SQLException;
+	int deleteSubscribe(Subscribe subscribe) throws SQLException;
+	ArrayList<Channel> mySubscribeList(String memberId) throws SQLException;
 }
 
 

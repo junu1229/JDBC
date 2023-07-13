@@ -53,7 +53,8 @@ public class ChannelDAO implements ChannelDAOTemplate {
 		PreparedStatement st = conn.prepareStatement(p.getProperty("addChannel"));
 		
 		st.setString(1, channel.getChannelName());
-		st.setString(2, channel.getMember().getMemberId());
+		st.setString(2, channel.getChannelPhoto());
+		st.setString(3, channel.getMember().getMemberId());
 		
 		int result = st.executeUpdate();
 		closeAll(st, conn);
