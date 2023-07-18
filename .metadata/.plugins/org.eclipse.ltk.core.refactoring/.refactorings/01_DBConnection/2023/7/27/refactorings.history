@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Serverinfo.java&apos; to &apos;03_Transaction/src/config&apos;&#x0A;- Original project: &apos;01_DBConnection&apos;&#x0A;- Destination element: &apos;03_Transaction/src/config&apos;&#x0A;- Original element: &apos;config.Serverinfo.java&apos;" description="Copy compilation unit" destination="=03_Transaction/src&lt;config" element1="/src&lt;config{Serverinfo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1688360669761" units="1" version="1.0"/>
+</session>

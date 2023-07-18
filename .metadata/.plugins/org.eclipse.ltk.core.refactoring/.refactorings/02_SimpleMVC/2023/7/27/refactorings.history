@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;jdbc.properties&apos; to &apos;04_MemberMVC/src/config&apos;&#x0A;- Original project: &apos;02_SimpleMVC&apos;&#x0A;- Destination element: &apos;04_MemberMVC/src/config&apos;&#x0A;- Original element: &apos;jdbc.properties&apos;" description="Copy file" destination="=04_MemberMVC/src&lt;config" element1="src/config/jdbc.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1688440945412" units="0" version="1.0"/>
+</session>
